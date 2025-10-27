@@ -14,5 +14,7 @@ This is the code for obtaining the temperature and humidity values of the enviro
 After measuring the classroom temperature and humidity, I set the color-changing temperature range of the lights at 25-30 degrees, and the humidity range at 50-100%. As the temperature rises within this range, the color changes from the cool blue tone to the warm red tone. As the humidity increases within the range, the color changes from light to dark.
 
 After conducting a series of tests, I found that the color changes were too frequent. Therefore, I decided to add a switch to control whether the color would change or not. When the switch is turned on, the color changes normally according to the environmental temperature and humidity. When the switch is turned off, the color remains fixed.
+
 <img width="1016" height="698" alt="image" src="https://github.com/user-attachments/assets/0eab93e2-dc47-4f9a-94f1-21a5774e9ba3" />
 
+This is the circuit diagram after adding the switch. It connects the Arduino board, the DHT22 sensor and the switch.
