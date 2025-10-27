@@ -9,7 +9,11 @@ At first, my intention was merely to use the temperature sensor to control the c
 So I began to learn about the DHT22 sensor and how to apply it in the code for Arduino. 
 
 <img width="669" height="76" alt="image" src="https://github.com/user-attachments/assets/5265f6d0-c5e3-47bd-9d8a-8410171db7bf" />
+
 This is the code for obtaining the temperature and humidity values of the environment through sensors.
+
+<img width="1352" height="454" alt="image" src="https://github.com/user-attachments/assets/b30fa97b-5f61-444b-9e2d-7f37eaf6758a" />
+<img width="1435" height="789" alt="image" src="https://github.com/user-attachments/assets/354d56db-19a3-4ea2-9ef9-b691a7618cca" />
 
 After measuring the classroom temperature and humidity, I set the color-changing temperature range of the lights at 25-30 degrees, and the humidity range at 50-100%. As the temperature rises within this range, the color changes from the cool blue tone to the warm red tone. As the humidity increases within the range, the color changes from light to dark.
 
