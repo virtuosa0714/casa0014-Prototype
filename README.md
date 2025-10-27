@@ -18,3 +18,5 @@ After conducting a series of tests, I found that the color changes were too freq
 <img width="1016" height="698" alt="image" src="https://github.com/user-attachments/assets/0eab93e2-dc47-4f9a-94f1-21a5774e9ba3" />
 
 This is the circuit diagram after adding the switch. It connects the Arduino board, the DHT22 sensor and the switch.
+
+During the testing phase, I heated up the air by breathing onto the DHT22 sensor to alter the temperature and humidity sensed by the sensor. This caused the temperature and humidity to increase, thereby changing the color of the light. Once I stopped breathing, the temperature and humidity would gradually return to the original environmental parameters of the classroom, and the color would also gradually change.
