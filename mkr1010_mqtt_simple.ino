@@ -2,12 +2,12 @@
 
 #include <DHT.h>
 
-// DHT22 相关定义
+// DHT22
 #define DHTPIN 6      
 #define DHTTYPE DHT22 
 DHT dht(DHTPIN, DHTTYPE);
 
-// 开关相关定义
+// Switch to control whether the lights change or not
 #define SWITCH_PIN 7 
 
 // works with MKR1010
@@ -57,7 +57,7 @@ void setup() {
   //while (!Serial); // Wait for serial port to connect (useful for debugging)
   Serial.println("Vespera");
   dht.begin();
-  pinMode(SWITCH_PIN, INPUT_PULLUP); // 开关为高电平时断开，低电平时闭合
+  pinMode(SWITCH_PIN, INPUT_PULLUP); // The switch is disconnected for high level and low level closure
 
 
   // print your MAC address:
@@ -107,6 +107,7 @@ void loop() {
         delay(1000);
         continue;
       }
+      //Adjust the color of the lights within the range of 25 to 30 degrees Celsius.
       int r, g, b;
       if (temp <= 25) {
         r = 0; g = 0; b = 255;
@@ -118,6 +119,7 @@ void loop() {
         g = 0;
         b = (int)(255 - ratio * 255);
       }
+      //Adjust the shade of the light color between 50% and 100% humidity.
       float factor;
       if (humi <= 50) {
         factor = 1.0;
@@ -125,7 +127,7 @@ void loop() {
         factor = 0.5;
       } else {
         factor = 1.0 - (humi - 50) / 100.0;
-        factor = 0.5 + (1.0 - (humi - 50) / 50.0) * 0.5; // 50%时1.0，100%时0.5
+        factor = 0.5 + (1.0 - (humi - 50) / 50.0) * 0.5; // 50% at 1.0，100% at 0.5
       }
   r = (int)(r * factor);
   g = (int)(g * factor);
