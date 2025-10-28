@@ -9,13 +9,15 @@ Environmental exhibitor - A project that can control the color and intensity of 
 
 This repository contains the process of formulating my ideas for this project and the process of making improvements to it.
 
+The weather in the UK is highly variable, so I had an epiphany and decided to create a device to visualize the rapidly changing environmental temperature.
+
 At first, my intention was merely to use the temperature sensor to control the color of the lights. However, after discussing my design ideas with the teacher, he informed me that there is a sensor called DHT22 which can simultaneously measure temperature and humidity. So, I decided to use this sensor and add the function of controlling the color depth of the lights based on the humidity level.
 
 So I began to learn about the DHT22 sensor and how to apply it in the code for Arduino. 
 
 <img width="669" height="76" alt="image" src="https://github.com/user-attachments/assets/5265f6d0-c5e3-47bd-9d8a-8410171db7bf" />
 
-This is the code for obtaining the temperature and humidity values of the environment through sensors.
+This is the code for obtaining the temperature and humidity values of the environment through DHT22 sensors.
 
 <img width="1352" height="454" alt="image" src="https://github.com/user-attachments/assets/b30fa97b-5f61-444b-9e2d-7f37eaf6758a" />
 <img width="1435" height="789" alt="image" src="https://github.com/user-attachments/assets/354d56db-19a3-4ea2-9ef9-b691a7618cca" />
