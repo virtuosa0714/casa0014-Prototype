@@ -3,7 +3,7 @@ casa0014 prototype
 
 This corner of the CASA0014 repository contains 1 project:
 
-Weather Visualizer - A project that can control the color and intensity of the vespera lights by sensing the ambient temperature and humidity.
+Weather Visualizer - A project that can control the color and shade of the vespera lights by sensing the environment temperature and humidity.
 
 ![0078e2543ebfee54117e46ed2b12c8a](https://github.com/user-attachments/assets/b5e80746-81c6-4134-b61d-25d1b9fedf74)
 
