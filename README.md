@@ -1,8 +1,13 @@
 # casa0014-Prototype
 casa0014 prototype
-A project that can control the color and intensity of the  vespera lights by sensing the ambient temperature and humidity.
+
+This corner of the CASA0014 repository contains 1 project:
+
+Environmental exhibitor - A project that can control the color and intensity of the vespera lights by sensing the ambient temperature and humidity.
 
 ![0078e2543ebfee54117e46ed2b12c8a](https://github.com/user-attachments/assets/b5e80746-81c6-4134-b61d-25d1b9fedf74)
+
+This repository contains the process of formulating my ideas for this project and the process of making improvements to it.
 
 At first, my intention was merely to use the temperature sensor to control the color of the lights. However, after discussing my design ideas with the teacher, he informed me that there is a sensor called DHT22 which can simultaneously measure temperature and humidity. So, I decided to use this sensor and add the function of controlling the color depth of the lights based on the humidity level.
 
