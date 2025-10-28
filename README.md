@@ -31,3 +31,12 @@ After conducting a series of tests, I found that the color changes were too freq
 This is the circuit diagram after adding the switch. It connects the Arduino board, the DHT22 sensor and the switch.
 
 During the testing phase, I heated up the air by breathing onto the DHT22 sensor to alter the temperature and humidity sensed by the sensor. This caused the temperature and humidity to increase, thereby changing the color of the light. Once I stopped breathing, the temperature and humidity would gradually return to the original environmental parameters of the classroom, and the color would also gradually change.
+
+<img width="1033" height="640" alt="cold and dry" src="https://github.com/user-attachments/assets/e49749c2-b132-45a9-a0ec-e2f00101a7d0" />
+<img width="1040" height="659" alt="cold and wet" src="https://github.com/user-attachments/assets/bd427f76-f6ad-4747-8291-646ec7a9f703" />
+
+These two pictures are the comparison before and after the humidity increase. It can be seen that the color of the light has become darker.
+
+<img width="1082" height="644" alt="warm and wet" src="https://github.com/user-attachments/assets/dada4eb3-0e47-4a12-8f01-3838cf3f5f26" />
+
+This is the color of the light after both temperature and humidity have risen simultaneously.
